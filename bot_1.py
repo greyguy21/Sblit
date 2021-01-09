@@ -5,7 +5,7 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Dict
 
-TELEGRAM_BOT_TOKEN = "1569496523:AAGr41Js4Ygulsacn467olEkA5KGr-wX1b0"
+TELEGRAM_BOT_TOKEN = "tele bot token goes here"
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN) 
 
 DONE = 'done'
