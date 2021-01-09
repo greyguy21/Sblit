@@ -5,7 +5,7 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Dict
 
-TELEGRAM_BOT_TOKEN = "tele bot token goes here" # token is obtained from botfather on telegram
+TELEGRAM_BOT_TOKEN = "tele bot token goes here" # token is obtained from @/botfather on telegram
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN) 
 
 DONE = 'done'
